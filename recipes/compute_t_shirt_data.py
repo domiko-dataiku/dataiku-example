@@ -23,14 +23,9 @@ df = pd.read_csv(BytesIO(data))
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 df['total'] = df['tshirt_price'] * df['tshirt_quantity']
-# create a new column with total in yen
-df['total_yen'] = df['tshirt_price'] * df['tshirt_quantity']*143.91
-# create a new column with total in euros
-df['total_euro'] = df['tshirt_price'] * df['tshirt_quantity']*0.90
 
 # update text category description
 df['tshirt_category'] = df['tshirt_category'].str.replace('Wh ', 'White ')
-
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 processed_dataset_df = df
@@ -40,4 +35,3 @@ processed_dataset_df = df
 # Dataset processed_data renamed to t_shirt_data by neba.nfonsang on 2024-09-16 20:58:07
 processed_dataset = dataiku.Dataset("t_shirt_data")
 processed_dataset.write_with_schema(processed_dataset_df)
-
