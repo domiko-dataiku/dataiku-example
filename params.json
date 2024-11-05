@@ -139,7 +139,8 @@
     "dkuProperties": []
   },
   "name": "[STARTER] Collaboration with Git and DSS",
-  "projectStatus": "Sandbox",
+  "projectStatus": "SEC",
+  "imgPattern": 4,
   "metrics": {
     "probes": [],
     "engineConfig": {
