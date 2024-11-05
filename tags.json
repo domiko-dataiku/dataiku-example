@@ -1,5 +1,8 @@
 {
   "tags": {
-    "recipe-editor": {}
+    "recipe-editor": {},
+    "Asset:Standard Enablement Content": {},
+    "Technical Dimension:Version control": {},
+    "Technical Dimension:GIT": {}
   }
 }
