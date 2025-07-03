@@ -1,41 +1,42 @@
 {
-  "pages": [
-    {
-      "id": "YSyNFOC",
-      "grid": {
-        "tiles": []
-      },
-      "show": true,
-      "showTitle": false,
-      "titleAlign": "CENTER",
-      "titleFontColor": "#444444",
-      "titleFontSize": 28,
-      "enableCrossFilters": true,
-      "backgroundColor": "#ffffff",
-      "showFilterPanel": true,
-      "filtersParams": {
-        "panelPosition": "TOP",
-        "engineType": "LINO"
-      }
-    }
-  ],
-  "owner": "lauren.diperna",
-  "listed": true,
-  "name": "[STARTER] Collaboration with Git and DSS\u0027s default dashboard",
-  "showGrid": false,
-  "showNavigationArrows": false,
-  "reloadWhenEventReceived": false,
+  "checklists": {
+    "checklists": []
+  },
+  "columnNumber": 36,
   "creationTag": {
-    "versionNumber": 0,
+    "extendedProperties": {},
     "lastModifiedBy": {
       "login": "lauren.diperna"
     },
     "lastModifiedOn": 1727886179978,
-    "extendedProperties": {}
+    "versionNumber": 0
   },
-  "tags": [],
   "customFields": {},
-  "checklists": {
-    "checklists": []
-  }
+  "listed": true,
+  "name": "[STARTER] Collaboration with Git and DSS's default dashboard",
+  "owner": "lauren.diperna",
+  "pages": [
+    {
+      "backgroundColor": "#ffffff",
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "engineType": "LINO",
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": []
+      },
+      "id": "YSyNFOC",
+      "show": true,
+      "showFilterPanel": true,
+      "showTitle": false,
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28
+    }
+  ],
+  "reloadWhenEventReceived": false,
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "tags": []
 }

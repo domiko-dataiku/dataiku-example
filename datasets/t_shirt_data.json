@@ -13,7 +13,8 @@
   "flowOptions": {
     "virtualizable": false,
     "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
+    "crossProjectBuildBehavior": "DEFAULT",
+    "ignoreErrorStatusOnBuild": false
   },
   "readWriteOptions": {
     "preserveOrder": false,
@@ -29,7 +30,8 @@
     "representsNullFields": false,
     "parquetCompressionMethod": "SNAPPY",
     "parquetFlavor": "HIVE",
-    "parquetBlockSizeMB": 128
+    "parquetBlockSizeMB": 128,
+    "readTemporalMode": "AS_RAW"
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -77,6 +79,7 @@
     ],
     "userModified": false
   },
+  "typeSystemVersion": "V1",
   "dkuProperties": [],
   "metrics": {
     "probes": [
