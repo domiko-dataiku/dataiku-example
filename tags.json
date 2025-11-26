@@ -1,8 +1,11 @@
 {
   "tags": {
-    "recipe-editor": {},
+    "Technical Dimension:GIT": {},
     "Asset:Standard Enablement Content": {},
-    "Technical Dimension:Version control": {},
-    "Technical Dimension:GIT": {}
+    "recipe-editor": {},
+    "imported": {
+      "color": "#263238"
+    },
+    "Technical Dimension:Version control": {}
   }
 }
